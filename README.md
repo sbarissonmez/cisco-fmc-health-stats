@@ -14,7 +14,7 @@ As long as network route available to your FMC, script will be able to collect d
 #
 `$export password=password#12342%` make sure your provide the FMC user password
 ##### Execute the script to collect health stats
-`$python FMC_Health.py --host myfmc-hostname:port`
+`$python firepower-health-stats.py --host myfmc-hostname:port`
 
 ![sample_output_1](./example/sample-output-1.png)
 

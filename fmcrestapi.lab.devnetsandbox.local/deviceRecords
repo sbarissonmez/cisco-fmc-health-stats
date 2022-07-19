@@ -1,0 +1,128 @@
+[
+  {
+    "id": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "type": "Device",
+    "links": {
+      "self": "https://fmcrestapisandbox.cisco.com/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/devices/devicerecords/635b289e-e0d8-11ec-b58b-ac6b9c576ac4"
+    },
+    "name": "FTD02",
+    "description": "NOT SUPPORTED",
+    "model": "Cisco Firepower Threat Defense for VMware",
+    "modelId": "A",
+    "modelNumber": "75",
+    "modelType": "Sensor",
+    "healthStatus": "disabled",
+    "sw_version": "7.0.1",
+    "healthPolicy": {
+      "id": "d69c3ea6-2085-11ec-98dd-5b9b0f389125",
+      "type": "HealthPolicy",
+      "name": "Initial_Health_Policy 2021-09-28 17:59:34"
+    },
+    "accessPolicy": {
+      "name": "ftdadd",
+      "id": "005056bf-7c6e-0ed3-0000-244813451769",
+      "type": "AccessPolicy"
+    },
+    "advanced": {
+      "enableOGS": false
+    },
+    "hostName": "10.10.20.81",
+    "license_caps": [
+      "MALWARE",
+      "BASE"
+    ],
+    "keepLocalEvents": false,
+    "prohibitPacketTransfer": false,
+    "ftdMode": "ROUTED",
+    "deviceGroup": {
+      "id": "d0d4244c-ed95-11ec-b3f0-e042c1d7866f",
+      "type": "DeviceGroup",
+      "name": "Practice"
+    },
+    "metadata": {
+      "readOnly": {
+        "state": true
+      },
+      "inventoryData": {
+        "cpuCores": "1 CPU (4 cores)",
+        "cpuType": "CPU Xeon E5 series 2200 MHz",
+        "memoryInMB": "8192"
+      },
+      "deviceSerialNumber": "9ARK52W14EL",
+      "domain": {
+        "name": "lab-domain",
+        "id": "14c7d168-2a8a-16f6-4fec-000000000000",
+        "type": "Domain"
+      },
+      "isPartOfContainer": false,
+      "isMultiInstance": false,
+      "snortVersion": "3.1.0.100-11",
+      "vdbVersion": "Build 351 - 2021-12-21 19:00:15",
+      "lspVersion": "lsp-rel-20210503-2107"
+    },
+    "snortEngine": "SNORT3"
+  },
+  {
+    "id": "a54ab61c-e0d7-11ec-9b30-a15f66449288",
+    "type": "Device",
+    "links": {
+      "self": "https://fmcrestapisandbox.cisco.com/api/fmc_config/v1/domain/e276abec-e0f2-11e3-8169-6d9ed49b625f/devices/devicerecords/a54ab61c-e0d7-11ec-9b30-a15f66449288"
+    },
+    "name": "FTD01",
+    "description": "NOT SUPPORTED",
+    "model": "Cisco Firepower Threat Defense for VMware",
+    "modelId": "A",
+    "modelNumber": "75",
+    "modelType": "Sensor",
+    "healthStatus": "green",
+    "sw_version": "7.0.1",
+    "healthPolicy": {
+      "id": "d69c3ea6-2085-11ec-98dd-5b9b0f389125",
+      "type": "HealthPolicy",
+      "name": "Initial_Health_Policy 2021-09-28 17:59:34"
+    },
+    "accessPolicy": {
+      "name": "ftdadd",
+      "id": "005056bf-7c6e-0ed3-0000-244813451769",
+      "type": "AccessPolicy"
+    },
+    "advanced": {
+      "enableOGS": false
+    },
+    "hostName": "10.10.20.80",
+    "license_caps": [
+      "MALWARE",
+      "BASE"
+    ],
+    "keepLocalEvents": false,
+    "prohibitPacketTransfer": false,
+    "ftdMode": "ROUTED",
+    "deviceGroup": {
+      "id": "d0d4244c-ed95-11ec-b3f0-e042c1d7866f",
+      "type": "DeviceGroup",
+      "name": "Practice"
+    },
+    "metadata": {
+      "readOnly": {
+        "state": true
+      },
+      "inventoryData": {
+        "cpuCores": "1 CPU (4 cores)",
+        "cpuType": "CPU Xeon E5 series 2200 MHz",
+        "memoryInMB": "8192"
+      },
+      "deviceSerialNumber": "9A1L3SL2JXD",
+      "domain": {
+        "name": "lab-domain",
+        "id": "14c7d168-2a8a-16f6-4fec-000000000000",
+        "type": "Domain"
+      },
+      "isPartOfContainer": false,
+      "isMultiInstance": false,
+      "snortVersion": "3.1.0.100-11",
+      "vdbVersion": "Build 351 - 2021-12-21 19:00:15",
+      "lspVersion": "lsp-rel-20210503-2107"
+    },
+    "snortEngine": "SNORT3"
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "deviceUUID": "0",
+    "moduleID": "MEMORY_USAGE",
+    "moduleUUID": "e4e2ea08-659d-4d7c-84f9-b4112900b1cb",
+    "timestamp": 1646173791,
+    "params": "<params><percentused>28.11</percentused><freemb>10935.53MB</freemb><sizemb>38901.76MB</sizemb></params>",
+    "status": "GREEN",
+    "details": " Used 10935.53MB of 38901.76MB (Physical + Swap)",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "INTERFACE",
+    "moduleUUID": "qwerjyue-andv-7654-2345-g4678494gi94",
+    "timestamp": 1646173791,
+    "params": "<params><interface><name>eth0</name><link>1</link><rx>2.8GB</rx><tx>405.0MB</tx><receiving>1</receiving></interface></params>",
+    "status": "GREEN",
+    "details": "All interfaces are working correctly",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "CPU",
+    "moduleUUID": "980ca3ae-fd69-43c1-b3cc-d71ea394b2eb",
+    "timestamp": 1655266269,
+    "status": "DISABLED",
+    "details": "No Data",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "SYBASE_STATUS",
+    "moduleUUID": "50197262-9530-4c01-834c-b3dd9445e3b9",
+    "timestamp": 1656677291,
+    "status": "GREEN",
+    "details": "Fragmentation index is normal",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "HOST_LIMIT",
+    "moduleUUID": "0ca46550-4fb9-4e39-8e83-532d8a40dd69",
+    "timestamp": 1658264812,
+    "params": "<params><percentused>0.00</percentused><count>0</count><total>50000</total></params>",
+    "status": "GREEN",
+    "details": "License is valid",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "HOST_LIMIT",
+    "moduleUUID": "0ca46550-4fb9-4e39-8e83-532d8a40dd69",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "RABBITMQ",
+    "moduleUUID": "1295e792-62b0-4afc-ae9e-790eabf1dda1",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleUUID": "1d98af33-3d95-420a-977f-f7ed68989e67",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "FILE_SYSTEM_INTEGRITY_CHECK",
+    "moduleUUID": "2357gd42-2343-9943-f071-g5328d0ag248",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "FILE_SYSTEM_INTEGRITY_CHECK",
+    "moduleUUID": "2357gd42-2343-9943-f071-g5328d0ag248",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "SNORT_STATS",
+    "moduleUUID": "26er2055-43a0-46e5-9964-763159933810",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "FTD_HA",
+    "moduleUUID": "27we2033-43a0-46e5-9965-763159933810",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "No Data",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "FTD_HA",
+    "moduleUUID": "27we2033-43a0-46e5-9965-763159933810",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "SNORT_IDENTITY_MEMORY_USAGE",
+    "moduleUUID": "36ce7a0d-79ec-4dfe-bee5-b8d37661ca17",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "SNORT_IDENTITY_MEMORY_USAGE",
+    "moduleUUID": "36ce7a0d-79ec-4dfe-bee5-b8d37661ca17",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "FTD_CONFIG_RESOURCE_UTILISATION",
+    "moduleUUID": "36ce7a0d-79ec-4dfe-bee5-b8d37661ca18",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "FTD_CONFIG_RESOURCE_UTILISATION",
+    "moduleUUID": "36ce7a0d-79ec-4dfe-bee5-b8d37661ca18",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "ROUTING_STATS",
+    "moduleUUID": "3dd21919-3166-4f51-b1fd-3f9283a3bf5c",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "CONN_STATUS_SSE",
+    "moduleUUID": "4680f3e1-c3fa-4fd3-9af8-92f1d5c2a564",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "No Data",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "CONN_STATUS_SSE",
+    "moduleUUID": "4680f3e1-c3fa-4fd3-9af8-92f1d5c2a564",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "SYBASE_STATUS",
+    "moduleUUID": "50197262-9530-4c01-834c-b3dd9445e3b9",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "DEPLOYED_CONFIGURATION",
+    "moduleUUID": "5724e9a0-43a0-46e5-9962-763159933810",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "CARD_RESET",
+    "moduleUUID": "5ac8a6c7-43a0-46e5-9950-98ddde4230ee",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "No Data",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "635b289e-e0d8-11ec-b58b-ac6b9c576ac4",
+    "moduleID": "CARD_RESET",
+    "moduleUUID": "5ac8a6c7-43a0-46e5-9950-98ddde4230ee",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Appliance unreachable",
+    "type": "Alert"
+  },
+  {
+    "deviceUUID": "0",
+    "moduleID": "CONNECTIONS",
+    "moduleUUID": "5ac8a6c7-43a0-46e5-9960-763159933810",
+    "timestamp": 1658264812,
+    "status": "DISABLED",
+    "details": "Does not apply to this platform",
+    "type": "Alert"
+  }
+]
